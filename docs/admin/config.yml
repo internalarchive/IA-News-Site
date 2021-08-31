@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: internalarchive/IA-News-Site
-  branch: master
+  branch: main
   site_domain: ianews.netlify.app
 
 media_folder: "docs/images"
