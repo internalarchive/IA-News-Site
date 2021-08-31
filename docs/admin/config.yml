@@ -23,7 +23,7 @@ collections:
     files:
       - label: 'About Page'
         name: 'about'
-        file: 'docs/about.html'
+        file: 'docs/about.md'
         fields:
           - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
