@@ -4,7 +4,8 @@ backend:
   branch: master
   site_domain: ianews.netlify.app
 
-media_folder: "images"
+media_folder: "docs/images"
+public_folder: "/images"
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
