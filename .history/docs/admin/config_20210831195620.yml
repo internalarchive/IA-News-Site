@@ -21,17 +21,10 @@ collections:
   - name: 'pages'
     label: 'Pages'
     files:
-      - label: 'About Page Markdown'
+      - label: 'About Page'
         name: 'about'
         file: 'docs/about.md'
         fields:
           - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: "About Page HTML"    
-        name: 'about'
-        file: 'docs/About.html'
-        fields:
-          - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }    
